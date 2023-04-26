@@ -1,4 +1,6 @@
 #include "main.h"
+#include <limits.h>
+#include <stdio.h>
 
 /**
  * get_size - Calculates the size to cast the argument
@@ -7,6 +9,7 @@
  *
  * Return: Precision.
  */
+
 int get_size(const char *format, int *i)
 {
 	int curr_i = *i + 1;
